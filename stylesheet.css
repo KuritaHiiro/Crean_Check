@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: aqua;
+  width: 100%;
+  height: 80px;
+}
+.container {
+  display: flex;
+}
+
+.list-text {
+  text-align: right;
+}
+
+.list-text li {
+  list-style: none;
+  text-align: right;
+  display: flex;
+}
+
+main {
+  width: 100%;
+  height: 800px;
+  background-color: #ff0000;
+}
